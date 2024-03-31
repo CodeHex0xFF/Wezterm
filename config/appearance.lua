@@ -21,17 +21,17 @@ return {
       -- Specifices a Linear gradient starting in the top left corner.
       orientation = { Linear = { angle = -45.0 } },
    },
---   background = {
---      {
---         source = { File = wezterm.config_dir .. '/backdrops/space.jpg' },
---      },
---      {
---         source = { Color = '#1A1B26' },
---         height = '100%',
---         width = '100%',
---         opacity = 0.95,
---      },
---   },
+   --   background = {
+   --      {
+   --         source = { File = wezterm.config_dir .. '/backdrops/space.jpg' },
+   --      },
+   --      {
+   --         source = { Color = '#1A1B26' },
+   --         height = '100%',
+   --         width = '100%',
+   --         opacity = 0.95,
+   --      },
+   --   },
 
    -- scrollbar
    enable_scroll_bar = true,
@@ -50,10 +50,11 @@ return {
    text_background_opacity = 0.75,
 
    -- cursor
-   default_cursor_style = "BlinkingBlock",
-   cursor_blink_ease_in = "Constant",
-   cursor_blink_ease_out = "Constant",
-   cursor_blink_rate = 500,
+   --SteadyBlock, BlinkingBlock, SteadyUnderline, BlinkingUnderline, SteadyBar, and BlinkingBar
+   default_cursor_style = "BlinkingUnderline",
+   cursor_blink_ease_in = "Linear",
+   cursor_blink_ease_out = "Linear",
+   cursor_blink_rate = 1000,
 
    -- window
    adjust_window_size_when_changing_font_size = true,
