@@ -37,7 +37,7 @@ end
 
 M.set_date = function()
    local date = wezterm.strftime(' %a  %Y-%m-%d %H:%M:%S')
-   M.push(date, '', M.colors.date_fg, M.colors.date_bg, true)
+   M.push(date, '', M.colors.date_fg, M.colors.date_bg, true)
 end
 
 M.setup = function()
