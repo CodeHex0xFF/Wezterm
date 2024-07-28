@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'wsl.exe'}
+   options.default_prog = { 'powershell.exe'}
    options.launch_menu = {
          }
 end
