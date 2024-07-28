@@ -44,5 +44,11 @@ return {
       bottom = 7,
    },
    window_close_confirmation = 'AlwaysPrompt',
+   window_frame = {
+      active_titlebar_bg = '#0F2536',
+      inactive_titlebar_bg = '#0F2536',
+      -- font = fonts.font,
+      -- font_size = fonts.font_size,
+   },
    inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
 }
