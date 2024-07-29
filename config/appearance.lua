@@ -16,7 +16,7 @@ return {
 
    -- tab bar
    enable_tab_bar = true,
-   hide_tab_bar_if_only_one_tab = true,
+   hide_tab_bar_if_only_one_tab = false,
    use_fancy_tab_bar = true,
    tab_max_width = 25,
    show_tab_index_in_tab_bar = true,
@@ -27,7 +27,7 @@ return {
    default_cursor_style = "BlinkingUnderline",
    cursor_blink_ease_in = "Linear",
    cursor_blink_ease_out = "Linear",
-   cursor_blink_rate = 1000,
+   cursor_blink_rate = 2500,
 
    -- window
    adjust_window_size_when_changing_font_size = true,
