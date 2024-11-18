@@ -6,7 +6,7 @@ local options = {
 }
 
 if platform.is_win then
-   options.default_prog = { 'powershell.exe'}
+   options.default_prog = { 'C:\\Program Files\\PowerShell\\7-preview\\pwsh.exe' }
    options.launch_menu = {
          }
 end
